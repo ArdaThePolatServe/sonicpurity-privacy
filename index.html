@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Sonic Purity</title>
+<meta name="description" content="Sonic Purity collects no personal data. This page explains what the app does with the microphone and what it stores on your device.">
+<meta name="color-scheme" content="light dark">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --surface: #f5f7fa;
+  --text: #16191d;
+  --muted: #5c6570;
+  --rule: #dfe3e8;
+  --accent: #0a63c9;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1013;
+    --surface: #171a1f;
+    --text: #eef1f4;
+    --muted: #a3acb7;
+    --rule: #2a2f36;
+    --accent: #5cb4ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 0 1.25rem 5rem;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+main { max-width: 42rem; margin: 0 auto; }
+header {
+  display: flex; align-items: center; gap: .75rem;
+  padding: 2.25rem 0 1.5rem;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 2rem;
+}
+header .mark {
+  width: 34px; height: 34px; border-radius: 9px; flex: none;
+  background: linear-gradient(135deg, #0a84ff, #64d2ff);
+}
+header .name { font-weight: 600; letter-spacing: -.01em; }
+h1 { font-size: 1.9rem; line-height: 1.2; letter-spacing: -.02em; margin: 0 0 .35rem; }
+h2 { font-size: 1.3rem; letter-spacing: -.01em; margin: 2.5rem 0 .6rem; }
+h3 { font-size: 1.05rem; margin: 1.9rem 0 .4rem; }
+p, li { color: var(--text); }
+p { margin: 0 0 1rem; }
+ul, ol { margin: 0 0 1rem; padding-left: 1.35rem; }
+li { margin-bottom: .45rem; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 2.5rem 0; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+code {
+  font: .9em ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--surface); padding: .12em .38em; border-radius: 4px;
+}
+.updated { color: var(--muted); font-size: .95rem; margin: 0 0 2rem; }
+footer {
+  margin-top: 4rem; padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted); font-size: .92rem;
+}
+footer a { margin-right: 1rem; }
+</style>
+</head>
+<body>
+<main>
+<header><span class="mark"></span><span class="name">Sonic Purity</span></header>
+<h1>Privacy Policy — Sonic Purity</h1>
+<p class="updated"><strong>Last updated: 29 July 2026</strong></p>
+<p>Sonic Purity does not collect, store, or transmit any personal data.</p>
+<p>That is the whole policy. The rest of this page explains what the app does with the one sensitive thing it touches, because "we collect nothing" is easy to write and worth substantiating.</p>
+<hr>
+<h2>The microphone</h2>
+<p>Two features use the microphone:</p>
+<ul>
+<li><strong>dB Meter</strong> measures the sound level in the room.</li>
+<li><strong>Smart Clean</strong> plays a quiet probe tone and listens to how your speaker responds, so it can retune the cleaning cycle to that speaker's strongest frequency.</li>
+</ul>
+<p>In both cases audio is read into memory, converted to a number, and discarded. It is never written to disk, never buffered beyond the few milliseconds needed to compute a level or run a frequency analysis, and never leaves the device. There is no recording feature and no way to play back anything the microphone heard.</p>
+<p>You can decline microphone access. The dB Meter and Smart Clean will not work; the rest of the app is unaffected.</p>
+<h2>What is stored on your device</h2>
+<p>Sonic Purity keeps a small amount of data locally so features like the 7-day routine and the diagnostic history work:</p>
+<ul>
+<li>Which cleaning cycles you ran, when, for how long, at what frequency, and whether you said it helped.</li>
+<li>Which speaker diagnostics you ran and whether you marked them as passing.</li>
+<li>Your preferences: appearance, haptics, reminder setting, output resolution, and the dB meter calibration offset.</li>
+</ul>
+<p>This lives in the app's own storage on your device. It is included in your device backup if you back your device up, because that is how iOS treats app data. Deleting the app deletes it.</p>
+<p>If you export your history (a Pro feature), the file is created on your device and handed straight to the iOS share sheet. Where it goes from there is your choice. Nothing is uploaded.</p>
+<h2>What the app does not do</h2>
+<ul>
+<li>No account, no sign-in, no email address.</li>
+<li>No analytics, telemetry, crash reporting, or usage tracking of any kind.</li>
+<li>No advertising, and no advertising identifiers.</li>
+<li>No network requests. The app functions fully in airplane mode. The only network activity is Apple's own, when you make or restore a purchase.</li>
+<li>No data is sold, shared, or disclosed to anyone, because none is collected.</li>
+</ul>
+<h2>Purchases</h2>
+<p>In-app purchases are handled entirely by Apple. Sonic Purity asks StoreKit whether a valid purchase exists and receives a yes or no. We never see your Apple Account, your payment details, or your name. Apple's own privacy policy governs that transaction.</p>
+<h2>Children</h2>
+<p>Sonic Purity is rated 4+ and collects nothing from anyone, including children. It complies with COPPA by not collecting data at all.</p>
+<h2>Changes</h2>
+<p>If this policy ever changes, the date at the top changes with it, and the change is noted in the app's Version History.</p>
+<h2>Contact</h2>
+<p>Questions about this policy: <strong><a href="mailto:ardapolat0901@gmail.com">ardapolat0901@gmail.com</a></strong></p>
+<footer>
+<a href="https://ardathepolatserve.github.io/sonicpurity-support/">Support</a>
+<span>&copy; Sonic Purity</span>
+</footer>
+</main>
+</body>
+</html>
